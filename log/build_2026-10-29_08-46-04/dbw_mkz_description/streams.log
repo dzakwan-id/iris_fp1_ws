@@ -1,0 +1,40 @@
+[0.067s] Invoking command in '/home/awan/iris_fp1_ws/build/dbw_mkz_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/dbw_mkz_description
+[2.526s] -- The C compiler identification is GNU 13.3.0
+[2.527s] -- The CXX compiler identification is GNU 13.3.0
+[2.527s] -- Detecting C compiler ABI info
+[2.527s] -- Detecting C compiler ABI info - done
+[2.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.530s] -- Detecting C compile features
+[2.530s] -- Detecting C compile features - done
+[2.532s] -- Detecting CXX compiler ABI info
+[2.534s] -- Detecting CXX compiler ABI info - done
+[2.534s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.535s] -- Detecting CXX compile features
+[2.535s] -- Detecting CXX compile features - done
+[2.537s] -- Configuring incomplete, errors occurred!
+[2.542s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[2.542s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.542s]   CMake.
+[2.543s] 
+[2.543s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.543s]   CMake that the project does not need compatibility with older versions.
+[2.543s] 
+[2.543s] [0m
+[2.544s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.544s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.544s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.544s]   CMake did not find one.
+[2.544s] 
+[2.544s]   Could not find a package configuration file provided by "catkin" with any
+[2.545s]   of the following names:
+[2.545s] 
+[2.548s]     catkinConfig.cmake
+[2.549s]     catkin-config.cmake
+[2.554s] 
+[2.554s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.555s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.557s]   provides a separate development package or SDK, be sure it has been
+[2.558s]   installed.
+[2.559s] 
+[2.561s] [0m
+[2.574s] Invoked command in '/home/awan/iris_fp1_ws/build/dbw_mkz_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/dbw_mkz_description

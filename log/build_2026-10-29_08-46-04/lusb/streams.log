@@ -1,0 +1,39 @@
+[0.059s] Invoking command in '/home/awan/iris_fp1_ws/build/lusb': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/lusb -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/lusb
+[0.168s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.168s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.168s]   CMake.
+[0.168s] 
+[0.168s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.169s]   CMake that the project does not need compatibility with older versions.
+[0.169s] 
+[0.169s] [0m
+[0.648s] -- The C compiler identification is GNU 13.3.0
+[1.205s] -- The CXX compiler identification is GNU 13.3.0
+[1.299s] -- Detecting C compiler ABI info
+[1.694s] -- Detecting C compiler ABI info - done
+[1.765s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.766s] -- Detecting C compile features
+[1.766s] -- Detecting C compile features - done
+[1.825s] -- Detecting CXX compiler ABI info
+[2.601s] -- Detecting CXX compiler ABI info - done
+[2.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.646s] -- Detecting CXX compile features
+[2.646s] -- Detecting CXX compile features - done
+[2.655s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.657s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.657s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.658s]   CMake did not find one.
+[2.658s] 
+[2.659s]   Could not find a package configuration file provided by "catkin" with any
+[2.659s]   of the following names:
+[2.660s] 
+[2.661s]     catkinConfig.cmake
+[2.661s]     catkin-config.cmake
+[2.663s] 
+[2.663s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.665s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.665s]   provides a separate development package or SDK, be sure it has been
+[2.666s]   installed.
+[2.667s] 
+[2.667s] [0m
+[2.680s] -- Configuring incomplete, errors occurred!

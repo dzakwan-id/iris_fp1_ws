@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.001264] (autonomous_vehicle_teb) JobQueued: {'identifier': 'autonomous_vehicle_teb', 'dependencies': OrderedDict()}
+[0.001366] (avisengine_environment) JobQueued: {'identifier': 'avisengine_environment', 'dependencies': OrderedDict()}
+[0.003118] (avisengine_resources) JobQueued: {'identifier': 'avisengine_resources', 'dependencies': OrderedDict()}
+[0.004125] (catvehicle_gazebo) JobQueued: {'identifier': 'catvehicle_gazebo', 'dependencies': OrderedDict()}
+[0.004190] (catvehicle_gps_action) JobQueued: {'identifier': 'catvehicle_gps_action', 'dependencies': OrderedDict()}
+[0.004217] (catvehicle_tests) JobQueued: {'identifier': 'catvehicle_tests', 'dependencies': OrderedDict()}
+[0.004237] (cmdvel2gazebo) JobQueued: {'identifier': 'cmdvel2gazebo', 'dependencies': OrderedDict()}
+[0.004256] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.004273] (control_toolbox) JobQueued: {'identifier': 'control_toolbox', 'dependencies': OrderedDict()}
+[0.004303] (dataspeed_can_msg_filters) JobQueued: {'identifier': 'dataspeed_can_msg_filters', 'dependencies': OrderedDict()}
+[0.004324] (dataspeed_can_tools) JobQueued: {'identifier': 'dataspeed_can_tools', 'dependencies': OrderedDict()}
+[0.004351] (dbw_mkz_description) JobQueued: {'identifier': 'dbw_mkz_description', 'dependencies': OrderedDict()}
+[0.004374] (dbw_mkz_gazebo) JobQueued: {'identifier': 'dbw_mkz_gazebo', 'dependencies': OrderedDict()}
+[0.004392] (dbw_mkz_msgs) JobQueued: {'identifier': 'dbw_mkz_msgs', 'dependencies': OrderedDict()}
+[0.004410] (drcsim_model_resources) JobQueued: {'identifier': 'drcsim_model_resources', 'dependencies': OrderedDict()}
+[0.004427] (example_pkg) JobQueued: {'identifier': 'example_pkg', 'dependencies': OrderedDict()}
+[0.004452] (iris_fira_simulation) JobQueued: {'identifier': 'iris_fira_simulation', 'dependencies': OrderedDict()}
+[0.004472] (lusb) JobQueued: {'identifier': 'lusb', 'dependencies': OrderedDict()}
+[0.004490] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.004522] (obstaclestopper) JobQueued: {'identifier': 'obstaclestopper', 'dependencies': OrderedDict()}
+[0.004540] (rviz_satellite) JobQueued: {'identifier': 'rviz_satellite', 'dependencies': OrderedDict()}
+[0.004568] (sicktoolbox) JobQueued: {'identifier': 'sicktoolbox', 'dependencies': OrderedDict()}
+[0.004593] (stepvel) JobQueued: {'identifier': 'stepvel', 'dependencies': OrderedDict()}
+[0.004637] (teb_navigation_demo) JobQueued: {'identifier': 'teb_navigation_demo', 'dependencies': OrderedDict()}
+[0.004665] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.004687] (autonomous_vehicle_nosecurity) JobQueued: {'identifier': 'autonomous_vehicle_nosecurity', 'dependencies': OrderedDict({'catvehicle_gazebo': '/home/awan/iris_fp1_ws/install/catvehicle_gazebo'})}
+[0.004737] (autonomous_vehicle_project) JobQueued: {'identifier': 'autonomous_vehicle_project', 'dependencies': OrderedDict({'catvehicle_gazebo': '/home/awan/iris_fp1_ws/install/catvehicle_gazebo'})}
+[0.004788] (autonomous_vehicle_simple) JobQueued: {'identifier': 'autonomous_vehicle_simple', 'dependencies': OrderedDict({'catvehicle_gazebo': '/home/awan/iris_fp1_ws/install/catvehicle_gazebo'})}
+[0.005149] (dataspeed_can_usb) JobQueued: {'identifier': 'dataspeed_can_usb', 'dependencies': OrderedDict({'lusb': '/home/awan/iris_fp1_ws/install/lusb'})}
+[0.005208] (dbw_mkz_gui) JobQueued: {'identifier': 'dbw_mkz_gui', 'dependencies': OrderedDict({'dbw_mkz_msgs': '/home/awan/iris_fp1_ws/install/dbw_mkz_msgs'})}
+[0.005243] (dbw_mkz_joystick_demo) JobQueued: {'identifier': 'dbw_mkz_joystick_demo', 'dependencies': OrderedDict({'dbw_mkz_msgs': '/home/awan/iris_fp1_ws/install/dbw_mkz_msgs'})}
+[0.005278] (sicktoolbox_wrapper) JobQueued: {'identifier': 'sicktoolbox_wrapper', 'dependencies': OrderedDict({'sicktoolbox': '/home/awan/iris_fp1_ws/install/sicktoolbox'})}
+[0.005315] (catvehicle) JobQueued: {'identifier': 'catvehicle', 'dependencies': OrderedDict({'obstaclestopper': '/home/awan/iris_fp1_ws/install/obstaclestopper', 'sicktoolbox': '/home/awan/iris_fp1_ws/install/sicktoolbox', 'sicktoolbox_wrapper': '/home/awan/iris_fp1_ws/install/sicktoolbox_wrapper'})}
+[0.005387] (dataspeed_can) JobQueued: {'identifier': 'dataspeed_can', 'dependencies': OrderedDict({'dataspeed_can_msg_filters': '/home/awan/iris_fp1_ws/install/dataspeed_can_msg_filters', 'dataspeed_can_tools': '/home/awan/iris_fp1_ws/install/dataspeed_can_tools', 'lusb': '/home/awan/iris_fp1_ws/install/lusb', 'dataspeed_can_usb': '/home/awan/iris_fp1_ws/install/dataspeed_can_usb'})}
+[0.005435] (dbw_mkz_can) JobQueued: {'identifier': 'dbw_mkz_can', 'dependencies': OrderedDict({'dataspeed_can_msg_filters': '/home/awan/iris_fp1_ws/install/dataspeed_can_msg_filters', 'dbw_mkz_msgs': '/home/awan/iris_fp1_ws/install/dbw_mkz_msgs', 'lusb': '/home/awan/iris_fp1_ws/install/lusb', 'dataspeed_can_usb': '/home/awan/iris_fp1_ws/install/dataspeed_can_usb'})}
+[0.005487] (can_sim_tc) JobQueued: {'identifier': 'can_sim_tc', 'dependencies': OrderedDict({'dataspeed_can_msg_filters': '/home/awan/iris_fp1_ws/install/dataspeed_can_msg_filters', 'dbw_mkz_msgs': '/home/awan/iris_fp1_ws/install/dbw_mkz_msgs', 'lusb': '/home/awan/iris_fp1_ws/install/lusb', 'dataspeed_can_usb': '/home/awan/iris_fp1_ws/install/dataspeed_can_usb', 'dbw_mkz_can': '/home/awan/iris_fp1_ws/install/dbw_mkz_can'})}
+[0.005591] (dbw_mkz) JobQueued: {'identifier': 'dbw_mkz', 'dependencies': OrderedDict({'dataspeed_can_msg_filters': '/home/awan/iris_fp1_ws/install/dataspeed_can_msg_filters', 'dbw_mkz_description': '/home/awan/iris_fp1_ws/install/dbw_mkz_description', 'dbw_mkz_msgs': '/home/awan/iris_fp1_ws/install/dbw_mkz_msgs', 'lusb': '/home/awan/iris_fp1_ws/install/lusb', 'dataspeed_can_usb': '/home/awan/iris_fp1_ws/install/dataspeed_can_usb', 'dbw_mkz_joystick_demo': '/home/awan/iris_fp1_ws/install/dbw_mkz_joystick_demo', 'dbw_mkz_can': '/home/awan/iris_fp1_ws/install/dbw_mkz_can'})}
+[0.005791] (dbw_mkz_msgs) JobStarted: {'identifier': 'dbw_mkz_msgs'}
+[0.025440] (lusb) JobStarted: {'identifier': 'lusb'}
+[0.029472] (dataspeed_can_msg_filters) JobStarted: {'identifier': 'dataspeed_can_msg_filters'}
+[0.036603] (catvehicle_gazebo) JobStarted: {'identifier': 'catvehicle_gazebo'}
+[0.041051] (sicktoolbox) JobStarted: {'identifier': 'sicktoolbox'}
+[0.047953] (dataspeed_can_tools) JobStarted: {'identifier': 'dataspeed_can_tools'}
+[0.051716] (dbw_mkz_description) JobStarted: {'identifier': 'dbw_mkz_description'}
+[0.055240] (obstaclestopper) JobStarted: {'identifier': 'obstaclestopper'}
+[0.071256] (dbw_mkz_msgs) JobProgress: {'identifier': 'dbw_mkz_msgs', 'progress': 'cmake'}
+[0.071368] (dbw_mkz_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/dbw_mkz_msgs'], 'cwd': '/home/awan/iris_fp1_ws/build/dbw_mkz_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/dbw_mkz_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.080559] (lusb) JobProgress: {'identifier': 'lusb', 'progress': 'cmake'}
+[0.082331] (lusb) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/lusb', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/lusb'], 'cwd': '/home/awan/iris_fp1_ws/build/lusb', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/lusb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.085867] (dataspeed_can_msg_filters) JobProgress: {'identifier': 'dataspeed_can_msg_filters', 'progress': 'cmake'}
+[0.087625] (dataspeed_can_msg_filters) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_msg_filters', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/dataspeed_can_msg_filters'], 'cwd': '/home/awan/iris_fp1_ws/build/dataspeed_can_msg_filters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/dataspeed_can_msg_filters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.096823] (catvehicle_gazebo) JobProgress: {'identifier': 'catvehicle_gazebo', 'progress': 'cmake'}
+[0.096895] (catvehicle_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/catvehicle_gazebo', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/catvehicle_gazebo'], 'cwd': '/home/awan/iris_fp1_ws/build/catvehicle_gazebo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/catvehicle_gazebo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.105812] (-) TimerEvent: {}
+[0.107967] (sicktoolbox) JobProgress: {'identifier': 'sicktoolbox', 'progress': 'cmake'}
+[0.108411] (sicktoolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/sicktoolbox'], 'cwd': '/home/awan/iris_fp1_ws/build/sicktoolbox', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/sicktoolbox', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.111417] (dataspeed_can_tools) JobProgress: {'identifier': 'dataspeed_can_tools', 'progress': 'cmake'}
+[0.113215] (dataspeed_can_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dataspeed_can/dataspeed_can_tools', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/dataspeed_can_tools'], 'cwd': '/home/awan/iris_fp1_ws/build/dataspeed_can_tools', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/dataspeed_can_tools', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.118089] (dbw_mkz_description) JobProgress: {'identifier': 'dbw_mkz_description', 'progress': 'cmake'}
+[0.118164] (dbw_mkz_description) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/dbw_mkz_ros/dbw_mkz_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/dbw_mkz_description'], 'cwd': '/home/awan/iris_fp1_ws/build/dbw_mkz_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/dbw_mkz_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.123671] (obstaclestopper) JobProgress: {'identifier': 'obstaclestopper', 'progress': 'cmake'}
+[0.125150] (obstaclestopper) Command: {'cmd': ['/usr/bin/cmake', '/home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/catvehicle_basics/obstaclestopper', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/obstaclestopper'], 'cwd': '/home/awan/iris_fp1_ws/build/obstaclestopper', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'awan', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/awan', 'OLDPWD': '/home/awan', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2636', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'awan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'awan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/awandz:@/tmp/.ICE-unix/2599,unix/awandz:/tmp/.ICE-unix/2599', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04c3099a_409f_4221_8816_57ec65fedb2e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/awan/iris_fp1_ws/build/obstaclestopper', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.187691] (dbw_mkz_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.190841] (dbw_mkz_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.191230] (dbw_mkz_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.191699] (dbw_mkz_msgs) StderrLine: {'line': b'\n'}
+[0.191952] (dbw_mkz_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.192220] (dbw_mkz_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.192357] (dbw_mkz_msgs) StderrLine: {'line': b'\n'}
+[0.192500] (dbw_mkz_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.192880] (lusb) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.193390] (lusb) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.193564] (lusb) StderrLine: {'line': b'  CMake.\n'}
+[0.193703] (lusb) StderrLine: {'line': b'\n'}
+[0.193822] (lusb) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.193917] (lusb) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.194033] (lusb) StderrLine: {'line': b'\n'}
+[0.194295] (lusb) StderrLine: {'line': b'\x1b[0m\n'}
+[0.194439] (dataspeed_can_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.194596] (dataspeed_can_tools) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.195013] (dataspeed_can_tools) StderrLine: {'line': b'  CMake.\n'}
+[0.195661] (dataspeed_can_tools) StderrLine: {'line': b'\n'}
+[0.195805] (dataspeed_can_tools) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.195961] (dataspeed_can_tools) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.196096] (dataspeed_can_tools) StderrLine: {'line': b'\n'}
+[0.196216] (dataspeed_can_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[0.196332] (dataspeed_can_msg_filters) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.197014] (dataspeed_can_msg_filters) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.197760] (dataspeed_can_msg_filters) StderrLine: {'line': b'  CMake.\n'}
+[0.197906] (dataspeed_can_msg_filters) StderrLine: {'line': b'\n'}
+[0.198076] (dataspeed_can_msg_filters) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.198209] (dataspeed_can_msg_filters) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.198332] (dataspeed_can_msg_filters) StderrLine: {'line': b'\n'}
+[0.198454] (dataspeed_can_msg_filters) StderrLine: {'line': b'\x1b[0m\n'}
+[0.198572] (catvehicle_gazebo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.198736] (catvehicle_gazebo) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.198873] (catvehicle_gazebo) StderrLine: {'line': b'  CMake.\n'}
+[0.198999] (catvehicle_gazebo) StderrLine: {'line': b'\n'}
+[0.199160] (catvehicle_gazebo) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.199296] (catvehicle_gazebo) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.199423] (catvehicle_gazebo) StderrLine: {'line': b'\n'}
+[0.199549] (catvehicle_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.206096] (-) TimerEvent: {}
+[0.309708] (-) TimerEvent: {}
+[0.410688] (-) TimerEvent: {}
+[0.511564] (-) TimerEvent: {}
+[0.627775] (sicktoolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.628878] (-) TimerEvent: {}
+[0.633799] (dbw_mkz_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.642151] (catvehicle_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.649755] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.671527] (lusb) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.695935] (dataspeed_can_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.730011] (-) TimerEvent: {}
+[0.830538] (-) TimerEvent: {}
+[0.939808] (-) TimerEvent: {}
+[1.041129] (-) TimerEvent: {}
+[1.123312] (dataspeed_can_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.138543] (dbw_mkz_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.142989] (-) TimerEvent: {}
+[1.146924] (sicktoolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.180091] (catvehicle_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.181292] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.229755] (lusb) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.242156] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.243265] (-) TimerEvent: {}
+[1.245428] (sicktoolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.246658] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.292537] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.316382] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.323742] (lusb) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.343570] (-) TimerEvent: {}
+[1.492145] (-) TimerEvent: {}
+[1.665528] (-) TimerEvent: {}
+[1.718872] (lusb) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.747706] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.765706] (-) TimerEvent: {}
+[1.782130] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.790112] (lusb) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.790840] (lusb) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.791698] (lusb) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.815689] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.816932] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.817176] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.817415] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.817776] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.819791] (dataspeed_can_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.822306] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.822536] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.828465] (sicktoolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.849968] (lusb) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.865868] (-) TimerEvent: {}
+[1.870138] (catvehicle_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.870715] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.870918] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.878126] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.894113] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.904375] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.913994] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.917884] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.920877] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.945134] (sicktoolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.947369] (sicktoolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.953341] (sicktoolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.965984] (-) TimerEvent: {}
+[1.968366] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.000122] (sicktoolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.066289] (-) TimerEvent: {}
+[2.172407] (-) TimerEvent: {}
+[2.273207] (-) TimerEvent: {}
+[2.375303] (-) TimerEvent: {}
+[2.428556] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.445504] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.475448] (-) TimerEvent: {}
+[2.482819] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.486302] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.493363] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.493851] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.496067] (catvehicle_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.497060] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.497275] (catvehicle_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.515139] (dbw_mkz_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.525905] (dbw_mkz_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.528502] (dbw_mkz_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.532707] (dbw_mkz_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.541316] (dbw_mkz_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.550304] (dbw_mkz_msgs) StderrLine: {'line': b'\n'}
+[2.550757] (dbw_mkz_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.551020] (dbw_mkz_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[2.552091] (dbw_mkz_msgs) StderrLine: {'line': b'\n'}
+[2.553218] (dbw_mkz_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.555508] (dbw_mkz_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.557750] (dbw_mkz_msgs) StderrLine: {'line': b'\n'}
+[2.565674] (dbw_mkz_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.570083] (dbw_mkz_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.573306] (dbw_mkz_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.573472] (dbw_mkz_msgs) StderrLine: {'line': b'  installed.\n'}
+[2.574696] (dbw_mkz_msgs) StderrLine: {'line': b'\n'}
+[2.575644] (-) TimerEvent: {}
+[2.577175] (dbw_mkz_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.578033] (dbw_mkz_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.579158] (dbw_mkz_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.579379] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.579520] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.579676] (dbw_mkz_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.581309] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.582467] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.582643] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.584443] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.587011] (dbw_mkz_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.587250] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.587407] (dbw_mkz_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.587546] (dbw_mkz_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.589498] (dbw_mkz_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[2.594863] (dbw_mkz_description) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[2.595098] (dbw_mkz_description) StderrLine: {'line': b'  CMake.\n'}
+[2.595276] (dbw_mkz_description) StderrLine: {'line': b'\n'}
+[2.595449] (dbw_mkz_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[2.595634] (dbw_mkz_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[2.595825] (dbw_mkz_description) StderrLine: {'line': b'\n'}
+[2.596016] (dbw_mkz_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.596204] (dbw_mkz_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.596381] (dbw_mkz_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.596559] (dbw_mkz_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.596746] (dbw_mkz_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.596921] (dbw_mkz_description) StderrLine: {'line': b'\n'}
+[2.597115] (dbw_mkz_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.597290] (dbw_mkz_description) StderrLine: {'line': b'  of the following names:\n'}
+[2.597622] (dbw_mkz_description) StderrLine: {'line': b'\n'}
+[2.598232] (dbw_mkz_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.600773] (dbw_mkz_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.603265] (dbw_mkz_description) StderrLine: {'line': b'\n'}
+[2.606578] (dbw_mkz_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.607992] (dbw_mkz_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.608276] (dbw_mkz_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.609633] (dbw_mkz_description) StderrLine: {'line': b'  installed.\n'}
+[2.611320] (dbw_mkz_description) StderrLine: {'line': b'\n'}
+[2.611505] (dbw_mkz_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.613345] (obstaclestopper) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.614280] (obstaclestopper) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.614491] (obstaclestopper) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.614656] (obstaclestopper) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.616066] (obstaclestopper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.617309] (obstaclestopper) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.617481] (obstaclestopper) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.617666] (obstaclestopper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.618316] (obstaclestopper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.618888] (obstaclestopper) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[2.619053] (obstaclestopper) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[2.619187] (obstaclestopper) StderrLine: {'line': b'  CMake.\n'}
+[2.620016] (obstaclestopper) StderrLine: {'line': b'\n'}
+[2.620221] (obstaclestopper) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[2.620395] (obstaclestopper) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[2.620581] (obstaclestopper) StderrLine: {'line': b'\n'}
+[2.621557] (obstaclestopper) StderrLine: {'line': b'\x1b[0m\n'}
+[2.622434] (dbw_mkz_msgs) CommandEnded: {'returncode': 1}
+[2.623555] (obstaclestopper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.624559] (obstaclestopper) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.626018] (obstaclestopper) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.626225] (lusb) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.626409] (dbw_mkz_description) CommandEnded: {'returncode': 1}
+[2.630176] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.631047] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.631701] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.632327] (catvehicle_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[2.632612] (catvehicle_gazebo) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.632841] (catvehicle_gazebo) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.635166] (catvehicle_gazebo) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.636972] (catvehicle_gazebo) StderrLine: {'line': b'\n'}
+[2.637621] (catvehicle_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.642481] (catvehicle_gazebo) StderrLine: {'line': b'  of the following names:\n'}
+[2.651828] (catvehicle_gazebo) StderrLine: {'line': b'\n'}
+[2.652839] (catvehicle_gazebo) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.653068] (catvehicle_gazebo) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.653265] (catvehicle_gazebo) StderrLine: {'line': b'\n'}
+[2.653466] (catvehicle_gazebo) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.653996] (catvehicle_gazebo) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.654176] (catvehicle_gazebo) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.654367] (catvehicle_gazebo) StderrLine: {'line': b'  installed.\n'}
+[2.662439] (catvehicle_gazebo) StderrLine: {'line': b'\n'}
+[2.662734] (catvehicle_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[2.662935] (catvehicle_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.663135] (catvehicle_gazebo) CommandEnded: {'returncode': 1}
+[2.664010] (dataspeed_can_msg_filters) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.664330] (dataspeed_can_msg_filters) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.664508] (dataspeed_can_msg_filters) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.664695] (dataspeed_can_msg_filters) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.664831] (dataspeed_can_msg_filters) StderrLine: {'line': b'\n'}
+[2.664979] (dataspeed_can_msg_filters) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.667488] (dataspeed_can_msg_filters) StderrLine: {'line': b'  of the following names:\n'}
+[2.667839] (dataspeed_can_msg_filters) StderrLine: {'line': b'\n'}
+[2.668177] (dataspeed_can_msg_filters) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.668368] (dataspeed_can_msg_filters) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.668538] (dataspeed_can_msg_filters) StderrLine: {'line': b'\n'}
+[2.668837] (dataspeed_can_msg_filters) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.668995] (dataspeed_can_msg_filters) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.669127] (dataspeed_can_msg_filters) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.669253] (dataspeed_can_msg_filters) StderrLine: {'line': b'  installed.\n'}
+[2.669393] (dataspeed_can_msg_filters) StderrLine: {'line': b'\n'}
+[2.669544] (dataspeed_can_msg_filters) StderrLine: {'line': b'\x1b[0m\n'}
+[2.669748] (dataspeed_can_msg_filters) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.670011] (sicktoolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.670257] (lusb) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.670859] (lusb) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.671103] (lusb) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.671279] (sicktoolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.671564] (sicktoolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.671789] (sicktoolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.671952] (obstaclestopper) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.672937] (obstaclestopper) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[2.673289] (obstaclestopper) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.673453] (obstaclestopper) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.673618] (obstaclestopper) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.673798] (obstaclestopper) StderrLine: {'line': b'\n'}
+[2.673965] (obstaclestopper) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.674149] (obstaclestopper) StderrLine: {'line': b'  of the following names:\n'}
+[2.674329] (obstaclestopper) StderrLine: {'line': b'\n'}
+[2.674526] (obstaclestopper) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.674757] (obstaclestopper) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.674953] (obstaclestopper) StderrLine: {'line': b'\n'}
+[2.675122] (obstaclestopper) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.675295] (obstaclestopper) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.675463] (obstaclestopper) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.678464] (-) TimerEvent: {}
+[2.679711] (obstaclestopper) StderrLine: {'line': b'  installed.\n'}
+[2.680033] (obstaclestopper) StderrLine: {'line': b'\n'}
+[2.680269] (obstaclestopper) StderrLine: {'line': b'\x1b[0m\n'}
+[2.680467] (lusb) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.681161] (lusb) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.682553] (lusb) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.682774] (lusb) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.683251] (lusb) StderrLine: {'line': b'\n'}
+[2.683426] (lusb) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.684701] (lusb) StderrLine: {'line': b'  of the following names:\n'}
+[2.684874] (lusb) StderrLine: {'line': b'\n'}
+[2.685111] (lusb) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.686094] (lusb) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.686417] (lusb) StderrLine: {'line': b'\n'}
+[2.688378] (lusb) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.688576] (lusb) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.690499] (lusb) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.690779] (lusb) StderrLine: {'line': b'  installed.\n'}
+[2.692022] (lusb) StderrLine: {'line': b'\n'}
+[2.692378] (lusb) StderrLine: {'line': b'\x1b[0m\n'}
+[2.692538] (sicktoolbox) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:6 (find_package):\n'}
+[2.692788] (sicktoolbox) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.692959] (sicktoolbox) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.693120] (sicktoolbox) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.695130] (sicktoolbox) StderrLine: {'line': b'\n'}
+[2.696551] (sicktoolbox) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.698418] (sicktoolbox) StderrLine: {'line': b'  of the following names:\n'}
+[2.698940] (sicktoolbox) StderrLine: {'line': b'\n'}
+[2.700259] (sicktoolbox) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.700480] (sicktoolbox) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.701741] (sicktoolbox) StderrLine: {'line': b'\n'}
+[2.702044] (sicktoolbox) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.702535] (sicktoolbox) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.703058] (sicktoolbox) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.703220] (sicktoolbox) StderrLine: {'line': b'  installed.\n'}
+[2.703371] (sicktoolbox) StderrLine: {'line': b'\n'}
+[2.703795] (sicktoolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[2.704119] (sicktoolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.704312] (lusb) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.705270] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.705454] (dataspeed_can_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.705789] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.706442] (dataspeed_can_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.706598] (dbw_mkz_msgs) JobEnded: {'identifier': 'dbw_mkz_msgs', 'rc': 1}
+[2.708219] (dataspeed_can_msg_filters) JobEnded: {'identifier': 'dataspeed_can_msg_filters', 'rc': 'SIGINT'}
+[2.709062] (dbw_mkz_description) JobEnded: {'identifier': 'dbw_mkz_description', 'rc': 'SIGINT'}
+[2.709634] (lusb) JobEnded: {'identifier': 'lusb', 'rc': 'SIGINT'}
+[2.710136] (catvehicle_gazebo) JobEnded: {'identifier': 'catvehicle_gazebo', 'rc': 'SIGINT'}
+[2.712369] (obstaclestopper) JobEnded: {'identifier': 'obstaclestopper', 'rc': 'SIGINT'}
+[2.715165] (sicktoolbox) JobEnded: {'identifier': 'sicktoolbox', 'rc': 'SIGINT'}
+[2.716649] (dataspeed_can_tools) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.717153] (dataspeed_can_tools) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.717279] (dataspeed_can_tools) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.717392] (dataspeed_can_tools) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.718028] (dataspeed_can_tools) StderrLine: {'line': b'\n'}
+[2.718279] (dataspeed_can_tools) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.718597] (dataspeed_can_tools) StderrLine: {'line': b'  of the following names:\n'}
+[2.718826] (dataspeed_can_tools) StderrLine: {'line': b'\n'}
+[2.718998] (dataspeed_can_tools) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.719166] (dataspeed_can_tools) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.719335] (dataspeed_can_tools) StderrLine: {'line': b'\n'}
+[2.719806] (dataspeed_can_tools) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.720199] (dataspeed_can_tools) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.720367] (dataspeed_can_tools) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.720527] (dataspeed_can_tools) StderrLine: {'line': b'  installed.\n'}
+[2.720708] (dataspeed_can_tools) StderrLine: {'line': b'\n'}
+[2.720883] (dataspeed_can_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[2.721052] (dataspeed_can_tools) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.721231] (dataspeed_can_tools) JobEnded: {'identifier': 'dataspeed_can_tools', 'rc': 'SIGINT'}
+[2.726592] (autonomous_vehicle_teb) JobSkipped: {'identifier': 'autonomous_vehicle_teb'}
+[2.726811] (avisengine_environment) JobSkipped: {'identifier': 'avisengine_environment'}
+[2.726840] (avisengine_resources) JobSkipped: {'identifier': 'avisengine_resources'}
+[2.726858] (catvehicle_gps_action) JobSkipped: {'identifier': 'catvehicle_gps_action'}
+[2.726874] (catvehicle_tests) JobSkipped: {'identifier': 'catvehicle_tests'}
+[2.726890] (cmdvel2gazebo) JobSkipped: {'identifier': 'cmdvel2gazebo'}
+[2.726906] (communication) JobSkipped: {'identifier': 'communication'}
+[2.726921] (control_toolbox) JobSkipped: {'identifier': 'control_toolbox'}
+[2.726936] (dbw_mkz_gazebo) JobSkipped: {'identifier': 'dbw_mkz_gazebo'}
+[2.726951] (drcsim_model_resources) JobSkipped: {'identifier': 'drcsim_model_resources'}
+[2.726966] (example_pkg) JobSkipped: {'identifier': 'example_pkg'}
+[2.726981] (iris_fira_simulation) JobSkipped: {'identifier': 'iris_fira_simulation'}
+[2.726996] (master) JobSkipped: {'identifier': 'master'}
+[2.727011] (rviz_satellite) JobSkipped: {'identifier': 'rviz_satellite'}
+[2.727027] (stepvel) JobSkipped: {'identifier': 'stepvel'}
+[2.727042] (teb_navigation_demo) JobSkipped: {'identifier': 'teb_navigation_demo'}
+[2.727060] (vision) JobSkipped: {'identifier': 'vision'}
+[2.727084] (autonomous_vehicle_nosecurity) JobSkipped: {'identifier': 'autonomous_vehicle_nosecurity'}
+[2.727108] (autonomous_vehicle_project) JobSkipped: {'identifier': 'autonomous_vehicle_project'}
+[2.727131] (autonomous_vehicle_simple) JobSkipped: {'identifier': 'autonomous_vehicle_simple'}
+[2.727157] (dataspeed_can_usb) JobSkipped: {'identifier': 'dataspeed_can_usb'}
+[2.727191] (dbw_mkz_gui) JobSkipped: {'identifier': 'dbw_mkz_gui'}
+[2.727222] (dbw_mkz_joystick_demo) JobSkipped: {'identifier': 'dbw_mkz_joystick_demo'}
+[2.727249] (sicktoolbox_wrapper) JobSkipped: {'identifier': 'sicktoolbox_wrapper'}
+[2.727274] (catvehicle) JobSkipped: {'identifier': 'catvehicle'}
+[2.727302] (dataspeed_can) JobSkipped: {'identifier': 'dataspeed_can'}
+[2.727330] (dbw_mkz_can) JobSkipped: {'identifier': 'dbw_mkz_can'}
+[2.727353] (can_sim_tc) JobSkipped: {'identifier': 'can_sim_tc'}
+[2.727648] (dbw_mkz) JobSkipped: {'identifier': 'dbw_mkz'}
+[2.727817] (-) EventReactorShutdown: {}

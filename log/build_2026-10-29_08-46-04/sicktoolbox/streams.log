@@ -1,0 +1,31 @@
+[0.068s] Invoking command in '/home/awan/iris_fp1_ws/build/sicktoolbox': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/awan/iris_fp1_ws/src/simulation/src/FIRA-Autonomous-Cars-Simulator/sicktoolbox -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/awan/iris_fp1_ws/install/sicktoolbox
+[0.586s] -- The C compiler identification is GNU 13.3.0
+[1.104s] -- The CXX compiler identification is GNU 13.3.0
+[1.204s] -- Detecting C compiler ABI info
+[1.786s] -- Detecting C compiler ABI info - done
+[1.903s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.905s] -- Detecting C compile features
+[1.911s] -- Detecting C compile features - done
+[1.958s] -- Detecting CXX compiler ABI info
+[2.627s] -- Detecting CXX compiler ABI info - done
+[2.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.629s] -- Detecting CXX compile features
+[2.629s] -- Detecting CXX compile features - done
+[2.650s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[2.650s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.650s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.652s]   CMake did not find one.
+[2.653s] 
+[2.655s]   Could not find a package configuration file provided by "catkin" with any
+[2.656s]   of the following names:
+[2.657s] 
+[2.658s]     catkinConfig.cmake
+[2.658s]     catkin-config.cmake
+[2.659s] 
+[2.659s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.660s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.660s]   provides a separate development package or SDK, be sure it has been
+[2.660s]   installed.
+[2.661s] 
+[2.661s] [0m
+[2.661s] -- Configuring incomplete, errors occurred!
